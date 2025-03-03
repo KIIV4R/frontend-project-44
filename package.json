@@ -1,6 +1,6 @@
 {
   "name": "@hexlet/code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "[![Actions Status](https://github.com/KIIV4R/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/KIIV4R/frontend-project-44/actions)",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,10 @@
   "author": "",
   "license": "ISC",
   "type": "module",
-  "bin":{
-    "brain-games": "bin/brain-games.js"}
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
