@@ -1,4 +1,3 @@
-import runGame from '../index.js';
 import getRandomNumber from '../utils.js';
 
 const calculate = (num1, num2, operator) => {
@@ -28,4 +27,4 @@ const generateQuestion = () => {
 
 const rules = 'What is the result of the expression?';
 
-export default () => runGame(rules, generateQuestion);
+export { generateQuestion, rules };
