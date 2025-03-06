@@ -17,7 +17,6 @@ while (count < 3) {
   if (!isCorrect) {
     break;
   }
-
   count += 1;
 }
 
