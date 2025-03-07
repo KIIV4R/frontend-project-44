@@ -60,7 +60,7 @@ npm link
 brain-even
 ```
 
-<a href="https://asciinema.org/a/YodEWGwCYxVU2tIp1CLpVRpHr" target="_blank"><img src="https://asciinema.org/a/YodEWGwCYxVU2tIp1CLpVRpHr.svg" /></a>
+<a href="https://asciinema.org/a/PfxC4On4CIeg0iz3efz5qRaZm" target="_blank"><img src="https://asciinema.org/a/PfxC4On4CIeg0iz3efz5qRaZm.svg" /></a>
 
 ## Игра "Калькулятор"
 
