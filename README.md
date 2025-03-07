@@ -1,12 +1,10 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/KIIV4R/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/KIIV4R/frontend-project-44/actions)
-
-
-
-
-
 ## Игры разума
 
+### Hexlet tests and linter status:
+
+[![Actions Status](https://github.com/KIIV4R/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/KIIV4R/frontend-project-44/actions)
+
+## Описание
 
 «Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново. Игры:
 
@@ -18,17 +16,40 @@
 
 ## Системные требования
 
- - Make
- - Git
- - Node 13+
+- Make
+- Git
+- Node 13+
 
 ## Установка
 
-Для установки выполните следующие команды:
+1. Клонирование репозитория
 
 ```bash
 git clone https://github.com/KIIV4R/frontend-project-44.git
+```
+
+2. Переход в директорию проекта
+
+```bash
 cd frontend-project-44
+```
+
+3. Установка необходимых модулей
+
+```bash
+npm ci
+```
+
+или
+
+```bash
+make install
+```
+
+4. Установка пакета в систему
+
+```bash
+npm link
 ```
 
 ## Игра "Проверка на чётность"
@@ -39,7 +60,8 @@ cd frontend-project-44
 brain-even
 ```
 
-https://github.com/user-attachments/assets/717e2832-0ec4-41d1-a9b7-319e1ab61523
+<a href="https://asciinema.org/a/YodEWGwCYxVU2tIp1CLpVRpHr" target="_blank"><img src="https://asciinema.org/a/YodEWGwCYxVU2tIp1CLpVRpHr.svg" /></a>
+
 ## Игра "Калькулятор"
 
 Для запуска игры выполните команду:
@@ -48,7 +70,8 @@ https://github.com/user-attachments/assets/717e2832-0ec4-41d1-a9b7-319e1ab61523
 brain-calc
 ```
 
-https://github.com/user-attachments/assets/345eb177-8587-4bd0-90d1-c335061b403f
+<a href="https://asciinema.org/a/YodEWGwCYxVU2tIp1CLpVRpHr" target="_blank"><img src="https://asciinema.org/a/YodEWGwCYxVU2tIp1CLpVRpHr.svg" /></a>
+
 ## Игра "Наибольший общий делитель"
 
 Для запуска игры выполните команду:
@@ -57,7 +80,9 @@ https://github.com/user-attachments/assets/345eb177-8587-4bd0-90d1-c335061b403f
 brain-gcd
 ```
 
-https://github.com/user-attachments/assets/ac7adf51-0c71-46c0-be42-c427fda8649e
+<a href="https://asciinema.org/a/Zs25cMOjyjTOc1Br6O3XQMDLD" target="_blank"><img src="https://asciinema.org/a/Zs25cMOjyjTOc1Br6O3XQMDLD.svg" /></a>
+</td>
+
 ## Игра "Арифметическая прогрессия"
 
 Для запуска игры выполните команду:
@@ -66,7 +91,8 @@ https://github.com/user-attachments/assets/ac7adf51-0c71-46c0-be42-c427fda8649e
 brain-progression
 ```
 
-https://github.com/user-attachments/assets/de954397-ddb1-4ca2-a232-5f8a61f0990e
+<a href="https://asciinema.org/a/5McvTwW3Qr4jXq284JNYF3BzH" target="_blank"><img src="https://asciinema.org/a/5McvTwW3Qr4jXq284JNYF3BzH.svg" /></a>
+
 ## Игра "Простое ли число?"
 
 Для запуска игры выполните команду:
@@ -75,4 +101,4 @@ https://github.com/user-attachments/assets/de954397-ddb1-4ca2-a232-5f8a61f0990e
 brain-prime
 ```
 
-https://github.com/user-attachments/assets/7feb2931-17ef-48d7-a198-8c018c07e930
+<a href="https://asciinema.org/a/WqGx6rcBgT71h6TnRlLZK5c72" target="_blank"><img src="https://asciinema.org/a/WqGx6rcBgT71h6TnRlLZK5c72.svg" /></a>
